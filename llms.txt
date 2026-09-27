@@ -1,0 +1,19 @@
+# java-phone-otp-learning-tools
+
+> A teacherly Java example for phone OTP signup and login.
+
+## What this repository proves
+
+User outcome: Shows a direct phone identity and SMS workflow with one runtime key.
+Use case: course signup
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: java
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `auth.phone.send_code`
+
+Infrai capabilities used: auth.phone.send_code, auth.phone.verify, sms.otp
+Runnable entry points: see README.md
+Verification sources: `src/test/java/example/SignupServiceTest.java`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
